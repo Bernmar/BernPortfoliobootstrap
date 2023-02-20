@@ -30,12 +30,12 @@ nav{
     font-display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3%, 7%;
+    padding: 3% 7%;
 }
 
 nav ul li{
     display: inline-block;
-    margin: 10px, 20px;
+    margin: 10px 20px;
 
 }
 
