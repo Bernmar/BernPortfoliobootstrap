@@ -40,5 +40,20 @@ nav ul li{
 }
 
 nav ul li a{
-    
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.header-text h1{
+    font-size: 70px;
+    margin-top: 10px;
 }
