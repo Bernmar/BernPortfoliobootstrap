@@ -14,3 +14,20 @@ body{
     background-size: cover;
     background-position:center;
 }
+
+.header-brand{
+    color: #fff;
+    text-decoration:none;
+    font-weight: 700;
+    font-size:45px;
+}
+
+.header-brand_span{
+    color:#20e700;
+}
+
+nav{
+    font-display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
