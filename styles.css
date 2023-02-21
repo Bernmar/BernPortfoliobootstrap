@@ -12,10 +12,13 @@ body{
     height: 100vh;
     background-image:linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)),url("https://cdn.hihello.me/v/bfbbea0c-ef0b-4ebb-9e2d-2081ba376534.png.image_large.");
     background-size: cover;
-    background-position:top;
+    background-position: 10% 10%;
+    
 }
 
 .header-brand{
+    /*
+    background-color: aqua;*/
     color: #fff;
     text-decoration:none;
     font-weight: 700;
@@ -27,13 +30,17 @@ body{
 }
 
 nav{
-    font-display: flex;
+    /*
+    background-color:red;*/
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 3% 7%;
 }
 
 nav ul li{
+    /*
+    background-color:blue ;*/
     display: inline-block;
     margin: 10px 20px;
 
@@ -56,4 +63,55 @@ nav ul li a{
 .header-text h1{
     font-size: 70px;
     margin-top: 10px;
+}
+
+
+/***** about me section*******/
+
+.about{
+    background-color: #242323;
+    height: 80vh;
+}
+
+.about-text{
+    /*
+    background-color: orangered;*/
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+
+}
+
+.about-text h2{
+    font size: 60px;
+    padding-top: 6rem;
+}
+
+.about-text p{
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.about-skills{
+    display: flex;
+    /*background-color: orangered;*/
+    width: 50%;
+    color: white;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-skills h3{
+    padding-right: 5%;
+}
+
+.about-skills_h3--1{
+    border-bottom: 3px solid #20e700;
+    width: 5%;
+    margin-right: 50px;
 }
